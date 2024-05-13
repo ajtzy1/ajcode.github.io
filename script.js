@@ -6,7 +6,7 @@ const noBtn = document.querySelector(".no-btn");
 yesBtn.addEventListener("click", () => {
 question.innerHTML = "If No, Don't Worry Positive Potato Is Here😊";
 gif.src =
-"https://github.com/ajtzy1/GeeksForGeeks/blob/ec2dce566df94ca6b9ad3b183974732bd0128c3a/potato.gif";
+"https://github.com/ajtzy1/ajcode.github.io/blob/37c0a221bde1d76d09e2048c5fbc1c42ce64d03e/potato.gif";
 });
 noBtn.addEventListener("mouseover", () => {
 const noBtnRect = noBtn.getBoundingClientRect();
