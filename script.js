@@ -5,7 +5,7 @@ const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
 yesBtn.addEventListener("click", () => {
 question.innerHTML = "If No, Don't Worry Positive Potato Is Here😊";
-gif.src ="https://github.com/ajtzy1/ajcode.github.io/blob/37c0a221bde1d76d09e2048c5fbc1c42ce64d03e/potato.gif";
+gif.src ="<iframe src="https://giphy.com/embed/12fWcohsEln5V6" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/manga-kimi-ni-todoke-12fWcohsEln5V6">via GIPHY</a></p>";
 });
 noBtn.addEventListener("mouseover", () => {
 const noBtnRect = noBtn.getBoundingClientRect();
